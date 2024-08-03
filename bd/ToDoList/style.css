@@ -1,0 +1,109 @@
+:root {
+  --main-color: cursive;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightslategray;
+}
+
+.container {
+  position: absolute;
+  top: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.adding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.taskinput {
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 0.2rem 0.5rem 0.2rem 2.4rem;
+  width: 28.1rem;
+  height: 3rem;
+  font-family: var(--main-color);
+}
+.taskinput::placeholder {
+  font-family: var(--main-color);
+}
+.button {
+  all: unset;
+  width: 5rem;
+  cursor: pointer;
+  background-color: white;
+  height: 3rem;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  font-family: var(--main-color);
+}
+.button:hover {
+  color: rgb(59, 57, 175);
+}
+p {
+  position: relative;
+  font-family: var(--main-color);
+  color: rgb(59, 57, 175);
+  margin: 0;
+  border-top: 0.1rem solid rgb(134, 134, 172); 
+  height: 2rem;
+  padding: 0.6rem 2.4rem;
+  background-color: white;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.changepad {
+  padding: 0.6rem 2rem !important;
+}
+.tasks {
+  cursor: pointer;
+  max-height: 300px;
+  overflow-x: hidden !important;
+  width: 36.4rem;
+}
+.checked {
+  background-color: rgb(218, 218, 218);
+  text-decoration: line-through;
+}
+.checked::after {
+  content: "";
+  position: absolute;
+  left: 3%;
+  bottom: 39%;
+  width: 0.35rem;
+  height: 0.85rem;
+  border: 1px solid rgb(0, 0, 0);
+  border-left: none;
+  border-top: none;
+  transform: rotateZ(45deg);
+}
+.fa-solid {
+  position: absolute;
+  right: 0.8rem;
+  color: red;
+  cursor: pointer;
+}
+@media (max-width: 700px) {
+  .adding {
+    width: 60.6%;
+  }
+  .tasks {
+    width: 60.6%;
+  }
+  .button {
+    width: 15rem;
+  }
+}

@@ -1,0 +1,36 @@
+body {
+  background-color: darkslategrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  all: unset;
+  font-size: 1.5rem;
+  text-align: center;
+  border: 2px solid rgb(37, 37, 37);
+  position: absolute;
+  top: 40%;
+  border-radius: 0.4rem;
+  width: 35%;
+  height: 5%;
+  padding: 1rem;
+  color: white;
+}
+
+.input::placeholder {
+  color: white;
+  opacity: 0.6;
+}
+.answer {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  border: 2px solid rgb(37, 37, 37);
+  width: 35%;
+  height: 5%;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  color: rgb(221, 221, 221);
+  text-align: center;
+}
