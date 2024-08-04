@@ -1,0 +1,10 @@
+.carts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  height: 50vh;
+}

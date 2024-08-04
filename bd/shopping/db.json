@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "http://localhost:8080/images/Watch.png",
+      "name": "Watch",
+      "price": "1500 $",
+      "rate": 3.2,
+      "category": "Watch"
+    },
+    {
+      "id": 2,
+      "image": "http://localhost:8080/images/Watch2.jfif",
+      "name": "Watch",
+      "price": "3000 $",
+      "rate": 4.8,
+      "category": "Watch"
+    },
+    {
+      "id": 3,
+      "image": "http://localhost:8080/images/download%20(1).jfif",
+      "name": "Women Dress",
+      "price": "2015 $",
+      "rate": 4.9,
+      "category": "Women"
+    },
+    {
+      "id": 4,
+      "image": "http://localhost:8080/images/download.jfif",
+      "name": "Women Dress",
+      "price": "2059 $",
+      "rate": 4.4,
+      "category": "Women"
+    },
+    {
+      "id": 5,
+      "image": "http://localhost:8080/images/images%20(1).jfif",
+      "name": "men Dress",
+      "price": "2500  $",
+      "rate": 4.1,
+      "category": "men"
+    },
+    {
+      "id": 6,
+      "image": "http://localhost:8080/images/men2.jfif",
+      "name": "men Dress",
+      "price": "2000 $",
+      "rate": 4.1,
+      "category": "men"
+    },
+    {
+      "id": 7,
+      "image": "http://localhost:8080/images/Watch3.jfif",
+      "name": "Watch",
+      "price": "2200 $",
+      "rate": 2.8,
+      "category": "Watch"
+    }
+  ]
+}
