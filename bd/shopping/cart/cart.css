@@ -4,7 +4,41 @@
   align-items: center;
   margin: auto;
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 5%;
   height: 50vh;
+}
+@media (max-width: 650px) {
+  .carts {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 4rem;
+    row-gap: 2rem;
+  }
+}
+@media (min-width: 650px) {
+  .carts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2.5rem;
+    row-gap: 2rem;
+  }
+}
+@media (min-width: 950px) {
+  .carts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2.5rem;
+    row-gap: 2rem;
+  }
+}
+@media (min-width: 1170px) {
+  .carts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2.5rem;
+    row-gap: 2rem;
+  }
 }

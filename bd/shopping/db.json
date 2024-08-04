@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "image": "http://localhost:8080/images/Watch.png",
+      "image": "../images/Watch.png",
       "name": "Watch",
       "price": "1500 $",
       "rate": 3.2,
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "image": "http://localhost:8080/images/Watch2.jfif",
+      "image": "../images/Watch2.jfif",
       "name": "Watch",
       "price": "3000 $",
       "rate": 4.8,
@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "image": "http://localhost:8080/images/download%20(1).jfif",
+      "image": "../images/download%20(1).jfif",
       "name": "Women Dress",
       "price": "2015 $",
       "rate": 4.9,
@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "image": "http://localhost:8080/images/download.jfif",
+      "image": "../images/download.jfif",
       "name": "Women Dress",
       "price": "2059 $",
       "rate": 4.4,
@@ -34,7 +34,7 @@
     },
     {
       "id": 5,
-      "image": "http://localhost:8080/images/images%20(1).jfif",
+      "image": "../images/images%20(1).jfif",
       "name": "men Dress",
       "price": "2500  $",
       "rate": 4.1,
@@ -42,7 +42,7 @@
     },
     {
       "id": 6,
-      "image": "http://localhost:8080/images/men2.jfif",
+      "image": "../images/men2.jfif",
       "name": "men Dress",
       "price": "2000 $",
       "rate": 4.1,
@@ -50,7 +50,7 @@
     },
     {
       "id": 7,
-      "image": "http://localhost:8080/images/Watch3.jfif",
+      "image": "../images/Watch3.jfif",
       "name": "Watch",
       "price": "2200 $",
       "rate": 2.8,
