@@ -16,8 +16,8 @@ h2 {
   color: white;
 }
 h2 a {
- all: unset;
- cursor: pointer;
+  all: unset;
+  cursor: pointer;
 }
 .search {
   outline: none;
@@ -35,21 +35,20 @@ h2 a {
   display: flex;
   justify-content: center;
   align-items: center;
- 
 }
-.count{
+.count {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: .7rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 0.7rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
   background-color: white;
   width: 0.9rem;
   height: 0.95rem;
   border-radius: 50%;
   position: absolute;
-  right: .9rem;
+  right: 0.9rem;
   top: 1.6rem;
 }
 .searching {
@@ -140,19 +139,21 @@ h2 a {
 }
 .addtocart:hover::before {
   opacity: 0.4;
-  padding: 1rem 3.71rem ;
+  padding: 1rem 3.71rem;
   transition: 0.5s;
 }
 .title {
   font-weight: bold;
 }
 .card {
+  transition: 0.5s;
   background-color: white;
   padding: 0.3rem 0.5rem;
   width: 14rem;
   border: 1px solid rgb(207, 203, 203);
   border-radius: 0.3rem;
 }
+
 @media (max-width: 650px) {
   .hero {
     display: grid;

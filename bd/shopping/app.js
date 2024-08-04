@@ -3,9 +3,12 @@ const showcard = document.querySelector(".carts");
 const hero = document.querySelector(".hero");
 const addtocart = document.querySelectorAll(".addtocart");
 const count = document.querySelector(".count");
+const searchinput = document.querySelector(".search");
+
 if (localStorage.length != 0) {
   count.innerHTML = localStorage.length;
 }
+
 hero.addEventListener("click", (e) => {
   var target = e.target.innerHTML;
 
@@ -34,11 +37,17 @@ hero.addEventListener("click", (e) => {
   }
 });
 
-addtocart.forEach((card) => {
-  card.addEventListener("click", (e) => {
+addtocart.forEach((button) => {
+  button.addEventListener("click", (e) => {
     var x = e.target.parentElement;
     localStorage.setItem(`card${localStorage.length + 1}`, x.id);
     count.innerHTML = localStorage.length;
-    alert("Added to card");
+    button.innerHTML = "Added";
+    // alert("Added to card");
   });
+});
+
+searchinput.addEventListener("change", (e) => {
+  console.log(e.target.value);
+  
 });

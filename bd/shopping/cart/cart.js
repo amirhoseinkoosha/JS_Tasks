@@ -1,6 +1,8 @@
 const count = document.querySelector(".count");
 const carts = document.querySelector(".carts");
+const Emptycart = document.querySelector(".Emptycart");
 
+Emptycart
 if (!(localStorage.length == 0)) {
   count.innerHTML = localStorage.length;
   for (i = 1; i <= localStorage.length; i++) {
@@ -8,6 +10,11 @@ if (!(localStorage.length == 0)) {
     console.log(x);
     Movetocart(x);
   }
+}
+else{
+  count.innerHTML = 0;
+  Emptycart.style="display:block"
+
 }
 
 async function Movetocart(id) {
